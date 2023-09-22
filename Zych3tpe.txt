@@ -1,0 +1,14 @@
+zadanie probne
+#pobranie liczby 
+A = int(input("Podaj pierwsza liczbe mniejsza od 200 :"))
+B = int(input("Podaj druga liczbe mniejsza od 200 :"))
+
+#spr czy liczby sa <200
+if A < 200 and B < 200:
+    #suma
+    suma = A+B
+    
+    #wynik
+    print("Suma", suma)
+else:
+    print("Podane liczby musza byc mnjesze od 200")
